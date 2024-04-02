@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main{
+    background-color:white;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 40px;
+   
+}
+
+.pic{
+    width:300px;
+    height:300px;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.hero{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom:5px ;
+}
+
+.hero1{
+    width: 100%;
+    height: 100%;
+    /* margin-left: 10px; */
+    border-radius: 30px;
+    /* margin-top: 5px; */
+    /* margin-bottom:5px ; */
+}
+
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 1px 20px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+}
+
+.anchor{ 
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight:bold ;
+}
+
+.sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.sub2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height: 1.8em;
+   column-gap: 80px;
+}
+.main-header{
+    display: grid;
+    grid-template-columns: 300px 2fr;
+   column-gap: 80px;
+   align-items: center;
+   line-height: 1.9em;
+   margin-top: 10px;
+}
+
+.main-section{
+    display: grid;
+   grid-template-columns: 300px 2fr;
+   color: white;
+   width: 1000px;
+   line-height: 1.8em;
+   align-items: center;
+   background-color: rgb(25, 26, 19);
+   column-gap: 60px;
+   margin-top: 20px;
+   border-radius: 30px;
+}
+
+h1{
+    margin-bottom: 50px; 
+}
+
+
+.sec{
+    line-height: 1.5rem;
+    margin-top: 20px;
+
+}
+
+.name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.part{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.article{
+    margin-bottom: 30px;
+}
+
+
+.boy{
+    box-shadow:  0px 2px 10px 0px rgba(144, 238, 144, 0.884);
+    border-radius: 20px;
+    
+}
+
+h2{
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+.list {
+    margin-left:30px;
+}
+
+.list li{
+    line-height: 1.8em;
+}
+
+.girl{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    line-height: 3rem;
+}
+
+.foot{
+    background-color:white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid black;
+    font-size: 20px;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.boat{
+    height: 24px;
+    width: 24px;
+}
